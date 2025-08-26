@@ -26,7 +26,7 @@ class ViewController: UIViewController {
 
     @IBAction func buttonAction(_ sender: Any) {
         
-        let nextViewController = self.storyboard?.instantiateViewController(withIdentifier: "NextView") as! NextViewController
+        let nextViewController = self.storyboard?.instantiateViewController(withIdentifier: "HomeView") as! HomeView
 //                nextViewController.modalPresentationStyle = .fullScreen
                 self.present(nextViewController, animated: true, completion: nil)
     }
